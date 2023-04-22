@@ -10,7 +10,7 @@ import ProductsPage from './pages/Products';
 // 1 object represents 1 route
 
 const router = createBrowserRouter([
-  { path: '/h', element: <HomePage /> },
+  { path: '/', element: <HomePage /> },
   { element: <ProductsPage />, path: '/products' },
   {},
   {}
